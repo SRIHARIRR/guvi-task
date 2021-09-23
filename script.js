@@ -54,11 +54,11 @@ var monthdiff=getmonth(inputdate,currentdate);
 console.log(monthdiff);
 
 dd.innerHTML=`Given input date is :${inputdate} <br>
-Years :${yeardiff} <br>
+Years :${yeardiff} <br><br>
 
-Months: ${monthdiff} <br>
+Months: ${monthdiff} <br><br>
 
-Day :${daydiff} <br>
+Days :${daydiff} <br>
 
 Hours :${hourdiff} <br>
 
