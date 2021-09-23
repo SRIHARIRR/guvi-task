@@ -53,7 +53,7 @@ console.log(yeardiff);
 var monthdiff=getmonth(inputdate,currentdate);
 console.log(monthdiff);
 
-dd.innerHTML=`given inpu date is :${inputdate} <br>
+dd.innerHTML=`given input date is :${inputdate} <br>
 year :${yeardiff} <br>
 month: ${monthdiff} <br>
 day :${daydiff} <br>
