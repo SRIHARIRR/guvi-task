@@ -53,14 +53,20 @@ console.log(yeardiff);
 var monthdiff=getmonth(inputdate,currentdate);
 console.log(monthdiff);
 
-dd.innerHTML=`given input date is :${inputdate} <br>
-year :${yeardiff} <br>
-month: ${monthdiff} <br>
-day :${daydiff} <br>
-hours :${hourdiff} <br>
-minutes :${minutediff}<br>
-seconds :${secondsdiff} <br>
-milliseconds:${millisecondsdiff}`;
+dd.innerHTML=`Given input date is :${inputdate} <br>
+Years :${yeardiff} <br>
+
+Months: ${monthdiff} <br>
+
+Day :${daydiff} <br>
+
+Hours :${hourdiff} <br>
+
+Minutes :${minutediff}<br>
+
+Seconds :${secondsdiff} <br>
+
+Milliseconds:${millisecondsdiff}`;
 }
 
 
