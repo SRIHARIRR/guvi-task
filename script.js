@@ -10,8 +10,8 @@ pdiv.appendChild(datelem);
 
 
 var button=document.createElement('button');
-button.innerHTML="display data";
-button.setAttribute('class','btn btn-primary');
+button.innerHTML="Display data";
+button.setAttribute('class',' btn btn-primary');
 button.addEventListener('click',calculate);
 pdiv.appendChild(button);
 
@@ -54,9 +54,9 @@ var monthdiff=getmonth(inputdate,currentdate);
 console.log(monthdiff);
 
 dd.innerHTML=`Given input date is :${inputdate} <br>
-Years :${yeardiff} <br><br>
+Years :${yeardiff} <br>
 
-Months: ${monthdiff} <br><br>
+Months: ${monthdiff} <br>
 
 Days :${daydiff} <br>
 
